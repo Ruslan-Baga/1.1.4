@@ -14,7 +14,7 @@ public class HibernateUtil {
     private static final String PASSWORD = "root";
     private static SessionFactory sessionFactory = null;
 
-    public static SessionFactory getConnection() {
+    public static SessionFactory getSessionFactory() {
 
         try {
             Configuration configuration = new Configuration()
